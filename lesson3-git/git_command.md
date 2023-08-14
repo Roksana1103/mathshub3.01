@@ -1,0 +1,1 @@
+Шпаргалка по гиту <a href='https://training.github.com/downloads/ru/github-git-cheat-sheet' target='_blank'>link</a>
