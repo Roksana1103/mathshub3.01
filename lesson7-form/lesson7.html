@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form, field, button</title>
+</head>
+
+<body>
+    <a href="../index.html">back</a>
+
+    <form>
+        <!-- <label for="age">Age</label>
+        <input type="number" id="age"> -->
+        <label>
+            <span>age</span>
+            <input type="number">
+        </label>
+        <fieldset>
+            <legend>Типы инпутов</legend>
+            <label>
+                <span>email</span>
+                <input type="email" name="email" placeholder="example@mail.com">
+            </label>
+            <br>
+            <label>
+                <span>tel</span>
+                <input type="tel" name="tel" disabled>
+            </label>
+            <br>
+            <label>
+                <span>pass</span>
+                <input type="password">
+            </label>
+            <br>
+            <label>
+                <span>num</span>
+                <input type="number">
+            </label>
+            <br>
+            <label>
+                <span>url</span>
+                <input type="url">
+            </label>
+            <br>
+            <label>
+                <span>range</span>
+                <input type="range" min="10" max="15">
+            </label>
+            <br>
+            <label>
+                <span>checkbox</span>
+                <input type="checkbox">
+            </label>
+            <br>
+            <fieldset>
+                <legend>radio</legend>
+                <label>
+                    <span>1</span>
+                    <input type="radio" name="choise">
+                </label>
+                <br>
+                <label>
+                    <span>2</span>
+                    <input type="radio" name="choise">
+                </label>
+                <br>
+                <label>
+                    <span>3</span>
+                    <input type="radio" name="choise">
+                </label>
+                <br>
+                <label>
+                    <span>4</span>
+                    <input type="radio" name="choise">
+                </label>
+                <br>
+            </fieldset>
+            <!-- <label>
+                <span>radio</span>
+                <input type="radio" name="choise">
+                <input type="radio" name="choise">
+                <input type="radio" name="choise">
+                <input type="radio" name="choise">
+            </label> -->
+            <br>
+            <label>
+                <p>file</p>
+                <input type="file" multiple>
+            </label>
+            <br>
+            <label>
+                <span>color</span>
+                <input type="color">
+            </label>
+            <br>
+            <label>
+                <span>date</span>
+                <input type="date">
+            </label>
+            <br>
+            <label>
+                <span>search</span>
+                <input type="search">
+            </label>
+            <br>
+            <label>
+                <span>button</span>
+                <input type="button" value="input button">
+            </label>
+        </fieldset>
+
+        <!-- <select name="" id=""></select> -->
+        <select id="gender" name="gender">
+            <option value="male">Мужской</option>
+            <option value="female">Женский</option>
+            <option value="other">Другой</option>
+        </select>
+        <br>
+
+        <label>
+            <span>textarea</span>
+            <textarea></textarea>
+        </label>
+
+        <button type="reset" onclick="alert('Форма очищена')">reset data</button>
+        <button type="submit" onclick="alert('Форма отправлена')">post data</button>
+        
+
+    </form>
+
+
+</body>
+
+</html>
