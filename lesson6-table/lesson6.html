@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table List, Image</title>
+    <style>
+        /* Таблица и каждый элемент в таблице
+        имеют рамку шириной один пиксель, сплошную, чёрную */
+        /* Схлопывать рамки? схлопывать */
+        table, table * {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col style="background-color:green">
+        </colgroup>
+        <caption>Title</caption>
+        <tr>
+            <th>number</th>
+            <th>name</th>
+            <th>last name</th>
+            <th>procent</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Anna</td>
+            <td>Ivanova</td>
+            <td>73</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bill</td>
+            <td>Clinton</td>
+            <td>34</td>
+            >
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Clint</td>
+            <td>Estwood</td>
+            <td>85</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">20</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>60</td>
+            <td>70</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td rowspan="4">1</td>
+            <td colspan="2">2</td>
+            <td colspan="2" rowspan="2">3</td>
+        </tr>
+        <tr>
+            <td>44</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <td>66</td>
+            <td>77</td>
+            <td>88</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td colspan="3">10</td>
+            <td>11</td>
+        </tr>
+    </table>
+
+
+
+    <table>
+        <thead></thead>
+        <tbody></tbody>
+        <tfood></tfood>
+    </table>
+    
+<section>
+    <h2>Lists</h2>   
+</section>
+
+<section>
+<h3>Unordered list</h3>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Ordered list</h2>
+    <ol>
+        <li>Anna</li>
+        <li>Bill</li>
+        <li>Clint</li>
+        <li>Den</li>
+    </ol>
+</section>
+    <hr>
+
+
+<section>
+    <h2>IMG & picture</h2>
+    <img src="https://giffun.ru/wp-content/uploads/2019/04/180-1.jpg"
+    alt="nature" title="nature">
+
+    <picture>
+        <source srcset="./static/green.jpg" media="(max-width: 600px)">
+        <source srcset="./static/red.jpg" media="(max-width: 800px)">
+        <source scrset="./static/blue.jpg" media="(orientation: landscape)"
+
+        <img src="https://giffun.ru/wp-content/uploads/2019/04/180-1.jpg"
+        alt="nature" title="nature">
+
+    </picture>
+
+  
+</section>
+
+
+</body>
+</html>

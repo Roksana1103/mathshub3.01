@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form, field, button</title>
+</head>
+<body>
+
+    <form>
+        <!-- <label for="age">Age</label>
+        <input type="number" id="age"> -->
+        
+        <label>
+           <span>age</span>
+            <input type="number">
+        </label>
+        <fieldset>
+            <legend>Типы инпутов</legend>
+            <label>
+                <span>email</span>
+                <input type="email" name="email" placeholder="example@mail.com">
+            </label>
+            <br>
+            <label>
+                <span>tel</span>
+                <input type="tel" name="tel" disabled>
+            </label>
+            <br>
+            <label>
+                <span>pass</span>
+                <input type="password">
+            </label>
+            <br>
+            <label>
+                <span>num</span>
+                <input type="number">
+            </label>
+            <br>
+            <label>
+                <span>url</span>
+                <input type="url">
+            </label>
+            <br>
+            <label>
+                <span>range</span>
+                <input type="range" min="10" max="15">
+            </label>
+            <br>
+            <label>
+                <span>checkbox</span>
+                <input type="checkbox">
+            </label>
+            <br>
+            <fieldset>
+                <legend>radio</legend>
+                <label>
+                    <spn>1</spn>
+                    <input type="radio" name="choise">
+                </label>
+                <br>
+                <label>
+                    <spn>2</spn>
+                    <input type="radio" name="choise">
+                </label>
+                <br>
+                <label>
+                    <spn>3</spn>
+                    <input type="radio" name="choise">
+                </label>
+                <br>
+                <label>
+                    <spn>4</spn>
+                    <input type="radio" name="choise">
+                </label>
+            </fieldset>
+            
+            <!-- <label>
+                <span>radio</span>
+                <input type="radio" name="choise">
+                <input type="radio" name="choise">
+                <input type="radio" name="choise">
+                <input type="radio" name="choise">
+            </label> -->
+
+            <label>
+                <p>file</p>
+                <input type="file" multiple>
+            </label>
+            <br>
+            <label>
+                <span>color</span>
+                <input type="color">
+            </label>
+            <br>
+            <label>
+                <span>date</span>
+                <input type="date">
+            </label>
+            <br>
+            <label>
+                <span>search</span>
+                <input type="search">
+            </label>
+            <br>
+            
+            <label>
+                <span>button</span>
+                <input type="button" value="input button">
+            </label>    
+        </fieldset>
+        <button type="reset" onclick="alert('форма очищена')">reset data</button>
+        <button type="submit" onclick="alert('форма отправлена')">post data</button>
+        
+      <br>
+      <br>
+      <br>
+
+        <label>Login</label>
+        <input type="text">
+        <br>
+        <label>email</label>
+        <input type="email">
+        <br>
+        <label>password</label>
+        <input type="password">
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <spn>Male</spn>
+            <input type="radio" name="choise">
+            <br>
+            <spn>Female</spn>
+            <input type="radio" name="choise">
+            <br>
+            <spn>Other</spn>
+            <input type="radio" name="choise">
+            <br>
+            <button>Remember me</button>
+            
+        </fieldset>
+       
+        </label>
+        
+    </form>
+
+  
+    
+</body>
+</html>
