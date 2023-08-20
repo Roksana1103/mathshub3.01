@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework-6</title>
+    <style>
+        table,
+        table * {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Table</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Кухня</th>
+            <th colspan="2">Холодные блюда</th>
+            <th colspan="2">Горячие блюда</th>
+            <th rowspan="2">Десерты</th>
+        </tr>
+        <tr>
+            <th>Салаты</th>
+            <th>Закуски</th>
+            <th>Первые блюда</th>
+            <th>Вторые блюда</th>
+        </tr>
+        <tr>
+            <th rowspan="3">Русская</th>
+            <td>Винегрет</td>
+            <td>Язык с хреном</td>
+            <td>Щи с квашенной капустой</td>
+            <td>Варенникис картошкой</td>
+            <td>Печеные яблоки с медом</td>
+        </tr>
+        <tr>
+            <td>Оливье</td>
+            <td>Студень говяжий</td>
+            <td>Рассольник домашний</td>
+            <td>Караси запеченые в сметане</td>
+            <td>Блинчатый пирог</td>
+        </tr>
+        <tr>
+            <td>Сельд под "шубой"</td>
+            <td>Судак заливной</td>
+            <td>Мясная солянка</td>
+            <td>Котлеты "Пожарские"</td>
+            <td>Пирожное "Картошка"</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+
+
+    <section>
+        <h2>Picture</h2>
+        <picture>
+            <source media="(max-width: 400px)"
+                srcset="https://a.thumbs.redditmedia.com/F6h2SfRXTwZ38terkkbM6S5aOx-BAcppsEE9KGXaJT8.png">
+
+            <source media="(max-width: 600px)"
+                srcset="https://geography-ege.ru/wp-content/uploads/2012/04/den_planeti_zemlya.jpg">
+
+            <source media="(max-width: 800px)"
+                srcset="https://www.m24.ru/b/d/nBkSUhL2hFAkkMa_Jb6BvMKnxdDs9pC9yyqYy7jLs2KQeXqLBmmcmzZh59JUtRPBsdaJqSfJd54qEr7t1mNwKSGK7WY=kfHFyQk8FJfZJ__vVxl7gA.jpg">
+
+            <source media="(max-width: 1280px)"
+                srcset="https://t4.ftcdn.net/jpg/01/47/46/17/360_F_147461738_6fboCE154l1xP0IqLe9cMuTQbfhICs98.jpg">
+
+            <source media="(max-width: 1440px)" srcset="https://scientificrussia.ru/images/t/qpt-full.jpg">
+            <img alt="Ни одна картинка не подходит под условия">
+        </picture>
+    </section>
+</body>
+
+</html>
