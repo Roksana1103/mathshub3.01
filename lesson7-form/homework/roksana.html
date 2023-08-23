@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+    <fieldset>
+        <legend>USER DATA</legend>
+        <label>
+            <span>Name</span>
+            <input type="Text" placeholder="Ivan">
+        </label>
+        <br>
+        <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="example@mail.com">
+        </label>
+        <br>
+        <label>
+            <span>Password</span>
+            <input type="password" placeholder="*******">
+        </label>
+        <br>
+        <label>
+            <span>remember me</span>
+            <input type="checkbox">
+        </label>
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <label>
+                <span>male</span>
+                <input type="radio" name="gender">
+            </label>
+            <br>
+            <label>
+                <span>female</span>
+                <input type="radio" name="gender">
+            </label>
+            <br>
+            <label>
+                <span>other</span>
+                <input type="radio" name="gender">
+            </label>
+        </fieldset>
+        <label>
+            <span>Age</span>
+            <input type="number">
+        </label>
+        <br>
+        <button type="reset" onclick="alert('Форма очищена')">RESET</button>
+        <button type="submit" onclick="alert('Форма отправлена')">SEND FORM</button>
+    </fieldset>
+</form>
+
+</body>
+
+</html>
