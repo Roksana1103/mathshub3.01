@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+    <link rel="stylesheet" href="./lesson8.css"/>
+    <style>
+        img {
+            border: 1px solid orange;
+        }
+        .red_text {
+            color: red;
+        }
+        #green_text {
+            color: green;
+        }
+        article {
+            font-size: 10px;
+        }
+        p {
+            /* color: blue; */
+            /* color: #abcdef; */
+            /* color: rgb(0, 0, 255); */
+            color: rgba(0, 0, 255, 1);
+            border: 1px solid black;
+            width: 50vw;
+            height: 25px;
+        }
+        /* span {
+            display: block;
+            border: 1px solid black;
+            width: 200px;
+            height: 25px;
+        } */
+        span {
+            /* font-size: 1.2em;
+            font-weight: 800;
+            line-height: 40px; */
+            font: 800 1.2em/40px Arial;
+        }
+        div {
+            width: 50%;
+            height: 50px;
+        }
+        .red_div {
+            background: red;
+        }
+        .green_div {
+            background-color: green;
+            background-image: url(../lesson6-tables/static/green.jpg);
+            background-size: cover;
+            /* background-position: center; */
+            /* background-repeat: no-repeat; */
+            height: 40px;
+        }
+        span.red_text {
+            font-style: italic;
+        }
+        .red_text, .green_text {
+            font-style: oblique;
+        }
+        article > div {
+            border: 2px solid pink;
+        }
+
+        p + span {
+            text-decoration: underline solid black;
+        }
+        p ~ span {
+            text-decoration: line-through solid black;
+        }
+
+        p + p {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="../index.html">back</a>
+   
+    <section>
+        <article>
+            <span>2
+                <span>3
+                    <span>4
+                        <span>5
+                            <span>6</span>
+                        </span>
+                    </span>
+                </span>
+            </span>
+
+            <div class="red_div">
+                <div class="green_div">
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <p class="red_text">Lorem ipsum dolor sit amet.</p>
+            <p class="red_text">Lorem ipsum dolor sit.</p>
+            <span class="red_text">Lorem, ipsum.</span>
+            <span class="red_text">Lorem, ipsum.</span>
+        </article>
+        <article>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p class="green_text">Lorem ipsum dolor sit.</p>
+            <span>Lorem, ipsum.</span>
+            <span>Lorem, ipsum.</span>
+            <img src="../lesson6-tables/static/blue.jpg" alt="blue">
+        </article>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>USER DATA</legend>
+            <legend>
+                <span>Name</span>
+                <input name="name" placeholder="Ivan" required>
+            </legend>
+            <legend>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="example@mail.com" required>
+            </legend>
+            <legend>
+                <span>Password</span>
+                <input type="password" name="password" placeholder="********" required>
+            </legend>
+            <legend>
+                <span>remember me</span>
+                <input type="checkbox" name="remember">
+            </legend>
+            <fieldset>
+                <legend>GENDER</legend>
+                <label>
+                    <span>male</span>
+                    <input type="radio" name="gender">
+                </label>
+                <br>
+                <label>
+                    <span>female</span>
+                    <input type="radio" name="gender">
+                </label>
+                <br>
+                <label>
+                    <span>other</span>
+                    <input type="radio" name="gender">
+                </label>
+            </fieldset>
+            <label>
+                <span>Age</span>
+                <input type="number" name="age">
+            </label>
+            <br>
+            <button type="reset" onclick="alert('shape cleared');">RESET</button>
+            <button type="submit" onclick="alert('form sent');">SEND FORM</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrey">
+    <meta name="description" content="homework 16.08.2023">
+    <meta name="keywords" content="Table, Img, Picture">
+    <!-- Favicon -->
+    <link rel="icon" href="https://icons-for-free.com/iconfiles/ico/32/smile-1324438819531858702.ico">
+    <title>Andrey's homework at 16.08.2023</title>
+    <style>
+        table, table * {
+            border: 1px solid green;
+            background-color: lightcyan;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th rowspan="2">Кухня</th>
+                <th colspan="2">Холодные блюда</th>
+                <!-- <th>13</th> -->
+                <th colspan="2">Горячие блюда</th>
+                <!-- <th>15</th> -->
+                <th rowspan="2">Десерты</th>
+            </tr>
+            <tr>
+                <!-- <th>21</th> -->
+                <th>Салаты</th>
+                <th>Закуски</th>
+                <th>Первые блюда</th>
+                <th>Вторые блюда</th>
+                <!-- <th>26</th> -->
+            </tr>
+            <tr>
+                <th rowspan="3">Русская</th>
+                <td>Винегрет</td>
+                <td>Язык с хреном</td>
+                <td>Щи с квашеной капустой</td>
+                <td>Варенники с картошкой</td>
+                <td>Печёные яблоки с мёдом</td>
+            </tr>
+            <tr>
+                <!-- <td>41</td> -->
+                <td>Оливье</td>
+                <td>Студень говяжий</td>
+                <td>Рассольник домашний</td>
+                <td>Караси запечёные в сметане</td>
+                <td>Блинчатый пирог</td>
+            </tr>
+            <tr>
+                <!-- <td>51</td> -->
+                <td>Сельдь под "шубой"</td>
+                <td>Судак заливной</td>
+                <td>Мясная солянка</td>
+                <td>Котлеты "Пожарские"</td>
+                <td>Пирожное "Картошка"</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Perfect picturies</h2>
+        <picture>
+            <source srcset="https://img-api.yumapos.ru/image/crop/256x256/844dc7a6-5102-3823-48fb-1d3cb2354829.jpg" media="(max-width: 400px)">
+            <source srcset="https://image1.thematicnews.com/uploads/topics/preview/00/00/19/42/0a18c5a276_256crop.jpg" media="(max-width: 600px)">
+            <source srcset="https://fort.crimea.com/catering/uploads/fotos/a4de32b0-83a5-11e9-9c6e-54a05051519a_1.jpg" media="(max-width: 800px)">
+            <source srcset="https://recept-france.ru/wp-content/uploads/2019/06/IMG_9264.jpg" media="(max-width: 1280px)">
+            <!-- up to 1440 or biggest -->
+            <img src="https://www.marybakery.ru/wp-content/uploads/2018/02/blinny-j-tort-1.jpg">
+        </picture>
+    </div>
+</body>
+</html>
