@@ -1,0 +1,25 @@
+div p {
+    font-size: 20px;
+}
+
+div:first-of-type {
+    background-color: yellow;
+}
+
+p + span {
+font-weight: 900;
+}
+
+p:first-of-type {
+color: red;
+}
+
+div {
+    font-style: italic;
+}
+
+#my_p + p {
+    background-color: black;
+    color: white;
+}
+
