@@ -1,0 +1,24 @@
+div p {
+    font-size: 20px;
+  }
+  
+  article:first-of-type div:first-of-type {
+    background-color: yellow;
+  }
+  
+  p + span {
+    font-weight: 900;
+  }
+  
+  p:first-of-type:not(:last-of-type) {
+    color: red;
+  }
+  
+  h2 + * {
+    font-style: italic;
+  }
+  
+  #my_p + * {
+    background-color: black;
+    color: white;
+  }
