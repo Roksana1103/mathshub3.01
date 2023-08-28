@@ -58,5 +58,5 @@ article div:nth-child(6) {
     order: 1;
 }
 article div:nth-child(7) {
-    /* flex-grow: 3; */
+    flex-grow: 3;
 }
