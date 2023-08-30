@@ -1,0 +1,45 @@
+section > div{
+    min-width: 50px;
+    min-height: 50px;
+    background-color: orange;
+    border: 1px solid black;
+
+    order: 0;
+
+}
+section{
+    margin: 30px auto;
+    display: flex;
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+    
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+    /* align-content: space-around; */
+    align-items: center;
+    
+
+
+}
+
+.nine{
+    
+    align-self: stretch;
+}
+.eight{
+    order: 1; 
+    align-self: flex-end;
+}
+
+.ten{
+    order: 1;
+    align-self:flex-start;
+}
+
+.three{
+    row-gap: 10px;
+    align-self: flex-end;
+}
