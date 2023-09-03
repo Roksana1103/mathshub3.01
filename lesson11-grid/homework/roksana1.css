@@ -1,0 +1,70 @@
+section>div {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: orange;
+    border: 1px solid black;
+}
+section {
+    margin: 30px auto;
+    display: grid;
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+
+    justify-items: center;
+    align-items: end;
+    column-gap: 15px;
+
+    grid-template-areas: 
+        "_ a6"
+        "_ a5"
+        "a10 a4"
+        "a8 a3"
+        "a9 a2"
+        "a7 a1";
+}
+
+.area1 {
+    grid-area: a1;
+}
+
+.area2 {
+    grid-area: a2;
+}
+
+.area3 {
+    grid-area: a3;
+    justify-self: start;
+}
+
+.area4 {
+    grid-area: a4;
+}
+
+.area5 {
+    grid-area: a5;
+}
+
+.area6 {
+    grid-area: a6;
+}
+
+.area7 {
+    grid-area: a7;
+}
+
+.area8 {
+    grid-area: a8;
+    justify-self: start;
+}
+
+.area9 {
+    grid-area: a9;
+    justify-self: stretch;
+}
+
+.area10 {
+    grid-area: a10;
+    justify-self: end;
+}
