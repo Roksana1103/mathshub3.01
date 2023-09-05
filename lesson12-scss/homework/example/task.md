@@ -1,0 +1,5 @@
+#Сверстайте с помощью SCSS и grid (можно и flex). В вашей папке можете создавать любые файлы, какие посчитаете нужным. Единственное требование - файл html должен открыться и выглядеть как картинка ниже. Картинка взята из макета по ссылке - <a href='https://www.figma.com/file/wgnOweycvHvoOsF0MggjAo/St.Proj.-3%2F3?node-id=9%3A295&mode=dev'>link</a>
+
+<div align='center'>
+    <img src='https://s3-alpha-sig.figma.com/img/15a2/1948/8701438e7e8e850fd4ebcf43063e96c6?Expires=1694390400&Signature=Hl3q7Ej68SiiN4m8vvWnogfR80mQuTVFlC4x0McEfJY4XP558L9pD5LIRu~l1ru0pDb1q~BZsUccVHcoMi8iirXockmZh-oTbhz-4OYLDKbwsUQUPeY3jRCI6twwlt261ImE~EHNRGWAofCJtcZle8ebYpMWRazveP6h6Dq7OtGQaaOvz86oYyAOT38Cl3jdizSvFgRFpzL9Rz8ZiM9nUS8iszEN4JaZ06n9kY81-vkQ65UUOAsiogY-dcFUPGJ9EgaLpwaNnSPSuGViKfNO8PAxMufVe74l1r17NqPZ2zOSNYX2YsoubrNzccYMSXMvv9yfoXP1b~Wpg3Px1F54wQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4' alt='grid table'>
+</div>
