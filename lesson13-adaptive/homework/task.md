@@ -1,0 +1,3 @@
+#С помощью любых известных нам инструментов сделайте блок из предыдущего ДЗ адаптивным. В вашей папке можете создавать любые файлы, какие посчитаете нужным. Главное требование - адаптивность, блок должен выглядеть на указанных размерах экрана согласно изображениям. Картинки взяты из макета по <a href='https://www.figma.com/file/wgnOweycvHvoOsF0MggjAo/St.Proj.-3%2F3?node-id=9%3A295&mode=dev'>ссылке</a>
+
+#<a href='https://docs.google.com/presentation/d/1ExCPsuloBqsfsBcPcK8-yZmvyOgMrYu7VkzHVWc9rx8/edit?usp=sharing'>Презентация</a>
