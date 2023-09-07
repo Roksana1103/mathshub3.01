@@ -1,0 +1,69 @@
+section>div {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+section {
+    margin: 30px auto;
+    display: grid;
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+    justify-items: center;
+    align-items: end;
+    column-gap: 10px;
+    grid-template-areas:
+        ". b6"
+        ". b5"
+        "b10 b4"
+        "b8 b3"
+        "b9 b2"
+        "b7 b1";
+}
+
+.block1 {
+    grid-area: b1;
+}
+
+.block2 {
+    grid-area: b2;
+}
+
+.block3 {
+    grid-area: b3;
+    justify-self: start;
+}
+
+.block4 {
+    grid-area: b4;
+}
+
+.block5 {
+    grid-area: b5;
+}
+
+.block6 {
+    grid-area: b6;
+}
+
+.block7 {
+    grid-area: b7;
+}
+
+.block8 {
+    grid-area: b8;
+    justify-self: start;
+}
+
+.block9 {
+    grid-area: b9;
+    justify-self: stretch;
+}
+
+.block10 {
+    grid-area: b10;
+    justify-self: end;
+}

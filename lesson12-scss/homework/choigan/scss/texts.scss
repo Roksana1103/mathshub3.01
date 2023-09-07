@@ -1,0 +1,17 @@
+$gray: #8491A0;
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.first_text {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $gray;
+}
+
+.second_text {
+    font-size: 55px;
+    color: #FFFFFF;
+}

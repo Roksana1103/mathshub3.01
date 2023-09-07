@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section > div{
+    min-width: 50px;
+    min-height: 50px;
+    background-color: orange;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+section{
+    max-width: 30px auto;
+    display: grid;
+    width: 500px;
+    height: 400px;
+    background-color: black; 
+    padding: 10px;
+    padding-top: 100px;
+    
+    grid-template-areas: 
+    ". . . . . . . b ." 
+    ". . . . . . . c ."
+    ". . . . d . . e ."
+    "f . . . . g . . ."
+    "h h h h h . . i ."
+    ". . j . . . . k ."
+    ;
+
+    grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr   ;
+    grid-template-columns:  3fr 1fr 3fr 1fr 3fr 3fr 1fr 3fr 6fr ;
+    align-content: end;
+}
+
+div:nth-child(1)
+{
+grid-area: k;
+}
+   
+div:nth-child(2)
+{
+grid-area: i;
+}
+div:nth-child(3)
+{
+grid-area: g;
+
+}
+div:nth-child(4)
+{
+grid-area: e;
+}
+div:nth-child(5)
+{
+grid-area: c;
+}
+div:nth-child(6)
+{
+grid-area: b;
+}
+div:nth-child(7)
+{
+grid-area: j;
+
+}
+div:nth-child(8)
+{
+grid-area: f;
+
+}
+div:nth-child(9)
+{
+grid-area: h;
+
+}
+div:nth-child(10)
+{
+grid-area: d;
+
+}
