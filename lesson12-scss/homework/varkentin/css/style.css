@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Sen';
+    src: url(Sen-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Sen';
+    color: white;
+    font-style: normal;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.work_expereance{
+    min-width: 360px;
+    max-width: 1440px;
+    
+    display: grid;
+    justify-content: start;
+    grid-template-areas: 
+    "comp comp comp" 
+    "one two  three"
+    "goo fac dri"
+    "i ive istart";
+
+    grid-template-rows: 3fr 2fr 1fr 1fr;
+
+}
+
+.work_expereance > .div {
+    padding: 5%;
+
+}
+
+
+
+.companies{
+    grid-area: comp;
+   
+};
+
+.one{
+    grid-area: one;
+  
+};
+.two{
+    grid-area: two;
+   
+}
+
+.three{
+    grid-area: three;
+   
+}
+
+.google{
+    grid-area: goo;
+    
+}
+.Facebook{
+    grid-area: fac;
+}
+   
+.dribbble{
+    grid-area: dri;
+   
+
+}
+.i{
+    grid-area:i;
+
+}
+.ive{
+    grid-area: ive;
+    
+}
+.istart{
+    grid-area: istart;
+   
+}
+
+.work_ex{
+color: #8491A0;
+font-size: 16px;
+line-height: 150%; 
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.Companies{
+    color: #FFF;
+    font-family: Sen;
+    font-size: 55px;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.chislo{
+    color: #8491A0;
+    font-size: 117px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.green, .pink, .blue, .white{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.green{
+color: #3CC74E;
+}
+
+.pink{
+    color: #E95D90;
+}
+
+.blue{
+    color: #609BFF;
+}
+
+.white{
+color: #FFF;
+}
+.gray{
+    color: #8491A0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
