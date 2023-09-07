@@ -1,0 +1,27 @@
+h1 {
+  color: #00ff00;
+  width: 120px;
+}
+
+section {
+  background-color: yellow;
+}
+section h2 {
+  color: darkcyan;
+}
+section article p {
+  color: darkolivegreen;
+  font-size: 40%;
+}
+
+p {
+  width: 200px;
+  padding: 10px;
+  color: gray;
+  background-color: bisque;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
