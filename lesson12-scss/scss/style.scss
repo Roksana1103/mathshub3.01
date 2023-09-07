@@ -1,0 +1,41 @@
+@import 'default';
+$green: #00ff00;
+$additional_length: 20px;
+
+h1 {
+    color: $green;
+    width: 100px + $additional_length;
+}
+
+section {
+    background-color: yellow;
+    h2 {
+        color: darkcyan;
+    }
+    article {
+        p {
+            color: darkolivegreen;
+            font-size: 1600px / 400px * 10%;
+        }
+    }
+}
+
+@mixin myColor($color) {
+    width: 200px;
+    padding: 10px;
+    color: grey;
+    background-color: $color;
+}
+p {
+    @include myColor(#fffaaa)
+}
+
+%defaultStyle {
+    font-size: 18px;
+    font-weight: 400;
+}
+p {
+    @extend %defaultStyle
+}
+
+

@@ -1,0 +1,53 @@
+$gray: #8491A0;
+$green: #3CC74E;
+$blue: #609BFF;
+$purple: #E95D90;
+
+.items {
+    display: flex;
+}
+
+.first_item,
+.second_item,
+.third_item {
+    display: flex;
+    flex-direction: column;
+    width: 416px;
+    height: 271px;
+}
+
+.number {
+    font-size: 117px;
+    color: $gray;
+    font-weight: 400;
+}
+
+.place_of_work {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+.work_tasks {
+    font-size: 16px;
+    line-height: 150%;
+    color: $gray;
+    width: 368px;
+    height: 48px;
+}
+
+@mixin myColor ($color) {
+    color: $color;
+}
+
+.google {
+    @include myColor($green)
+}
+
+.facebook {
+    @include myColor($blue)
+}
+
+.dribbble {
+    @include myColor($purple)
+}
