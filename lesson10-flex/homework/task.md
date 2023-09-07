@@ -1,0 +1,1 @@
+Задание в презентации по <a href='https://docs.google.com/presentation/d/1R8V6E9sUCmk7fv_rEA0Hg-F8iDbFLODN44tvhAKUQY4/edit#slide=id.g275d98797a5_0_7'>ссылке</a>

@@ -1,0 +1,33 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+div {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border: 5px solid gray;
+    padding: 40px 50px;
+}
+
+div:nth-child(7) {
+    margin-top: -20px;
+}
+
+div:nth-child(3) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div:nth-child(5) {
+    position: fixed;
+    top: 0;
+}
